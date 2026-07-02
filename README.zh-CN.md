@@ -31,7 +31,7 @@
 ## 安装
 
 ```bash
-npx skills add zjp1997720/html-express-skill -g -a codex --skill html-express -y
+npx skills add zjp1997720/html-express -g -a codex --skill html-express -y
 ```
 
 ## 示例请求

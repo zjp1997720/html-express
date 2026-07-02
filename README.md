@@ -31,7 +31,7 @@ The component snippets live in `assets/components/`:
 ## Install
 
 ```bash
-npx skills add zjp1997720/html-express-skill -g -a codex --skill html-express -y
+npx skills add zjp1997720/html-express -g -a codex --skill html-express -y
 ```
 
 ## Example Requests
@@ -75,7 +75,7 @@ Recommended checks:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
-npx skills add zjp1997720/html-express-skill --list
+npx skills add zjp1997720/html-express --list
 ```
 
 ## License
