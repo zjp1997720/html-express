@@ -29,6 +29,6 @@
   "payload_digest": "079d2defd9b7fc156bff82e39cdde52a37e9d68056b467154e5d85ba61ec9860",
   "schema_version": "1.0.0",
   "skill": "html-express",
-  "source_commit": "33bbb003cb967ae75f9ef372438d2e6744ca278f",
+  "source_commit": "26cba9e100b37a2efe0fa161bd394db46cee5328",
   "version": "1.0.0"
 }
