@@ -1,3 +1,7 @@
+/* html-express · 品牌设计 token
+   抽自 智见AI DESIGN.md（04_系统/品牌系统/DESIGN.md）
+   只改 :root 变量值即可换肤；组件一律走 class 引用，不重复定义。 */
+
 :root {
   /* —— 颜色 —— */
   --paper: #F5F4ED;            /* 页面背景，永远不纯白 */
@@ -20,10 +24,10 @@
   --code-fg: #F5F4ED;          /* 代码块字 */
 
   /* —— 字体（不嵌入，靠 fallback） —— */
-  --font-head: "TsangerJinKai02", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", Georgia, serif;
-  --font-body: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", Georgia, serif;
-  --font-ui:   "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-code: "JetBrains Mono", "SF Mono", Consolas, "Source Han Serif SC", monospace;
+  --font-head: "Source Han Serif SC VF", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", SimSun, Georgia, serif;
+  --font-body: "Source Han Serif SC VF", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", SimSun, Georgia, serif;
+  --font-ui:   "Source Han Serif SC VF", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", SimSun, Georgia, serif;
+  --font-code: "SF Mono", "JetBrains Mono", Menlo, Consolas, "Source Han Serif SC VF", "Source Han Serif SC", monospace;
 
   /* —— 字号层级 —— */
   --fs-display: 40px;   /* 日常版从 lg 起步，不做 56px display（太重） */
@@ -81,6 +85,7 @@ a:hover { text-decoration: underline; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-head);
+  font-weight: 500;
   color: var(--trust);
   line-height: 1.2;
   margin: 0 0 var(--sp-md);

@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository is a generated compatibility mirror. The editable source, Issues, and contributions live in [zjp1997720/zhijian-skills](https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express).
+
 # html-express
 
 `html-express` is an agent skill for turning dense information into one clean, self-contained HTML file.

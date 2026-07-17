@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository is a generated compatibility mirror. The editable source, Issues, and contributions live in [zjp1997720/zhijian-skills](https://github.com/zjp1997720/zhijian-skills/tree/main/skills/html-express).
+
 # html-express
 
 `html-express` 是一个 Agent Skill，用来把信息密集的内容整理成一个干净、自包含、可双击打开的 HTML 文件。
